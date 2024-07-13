@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    background-color:black;
+}
+
+.header-left img {
+    margin: 0;
+    height: 50px;
+}
+
+.header-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 10px;
+    display: flex;
+}
+
+.header-right ul li {
+    margin-left: 20px;
+    margin-right:10px
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    color: seashell
+}
+.header-right ul li a:hover {
+    text-decoration: underline;
+}
+.background img {
+    display: flex;
+    margin: 0 auto;
+    height: 700px;
+    padding-top: 69px;
+    width:1200px;
+}
+.mission {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -300px);
+background-color: black;
+width: 1200px;
+text-align: center;
+}
+.tea {
+    width: 100%;
+    max-width: 1000px;
+    margin:  0 auto;
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tea h2, .tea h4 {
+    margin: 10px 0;
+}
+
+figure {
+    margin: 10px;
+    text-align: center;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.locations {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    position: relative;
+}
+.location h2 {
+    margin: 10px 0;
+    z-index: 1;
+}
+
+.location-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+.locations h2, .location-details {
+    position: relative;
+    z-index: 2;
+    margin: 10px 0;
+}
+
+.location  {
+    margin: 20px;
+    background-color: black;
+    width: 300px
+}
+.location h3 {
+    margin: 5px 0;
+}
+.locations img {
+position: absolute;
+top: 0;
+left: 0;
+width: 1200px;
+height: 500px;
+z-index: 1;
+object-fit: cover;
+}
+.info {
+    text-align: center;
+    height:200px;
+    margin-top: 200px;
+}
+.footer p {
+    margin-left: 20px;
+}
